@@ -1,0 +1,11 @@
+{
+  "name": "quizapp",
+  "version": "1.0.0",
+  "description": "A quiz app made in Vanilla JavaScript. This app will ask ten questions and score them depending on the answers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahmat",
+  "license": "ISC"
+}

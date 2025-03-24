@@ -1,0 +1,113 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #000428, #004e92);
+    color: #ccc;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#answers{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+/* Container for the quiz app */
+.container {
+    width: 90%;
+    height: 70%;
+    max-width: 600px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.85), rgba(50, 50, 50, 0.85));
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Points display styling */
+#points {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Base button styling */
+button {
+    padding: 0.8rem 1.2rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+/* button {
+    padding: 0.8rem 1.2rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+} */
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+/* Quiz option buttons */
+.options {
+    background-color: #444;
+    color: #fff;
+}
+
+/* Hover state for options */
+.options:hover {
+    background-color: #555;
+}
+
+/* Correct answer button */
+.correct {
+    background-color: #2ecc71; /* bright green */
+    color: #fff;
+}
+
+/* Wrong answer button */
+.wrong {
+    background-color: #e74c3c; /* bright red */
+    color: #fff;
+}
+
+/* Next button styling */
+.next {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.next:hover {
+    background-color: #2980b9;
+}
